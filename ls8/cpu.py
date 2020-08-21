@@ -132,4 +132,4 @@ class CPU:
         return self.ram[address]
     
     def ram_write(self, address, value):
-        self.ram[address] = value
+        self.ram[address] = value 
